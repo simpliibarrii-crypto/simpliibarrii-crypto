@@ -2,6 +2,10 @@
 language:
 - en
 license: apache-2.0
+title: Raven AI
+emoji: 🦅
+colorFrom: indigo
+colorTo: red
 tags:
 - raven-ai
 - ai-orchestration
@@ -10,6 +14,7 @@ tags:
 - local-first
 library_name: custom
 pipeline_tag: text-generation
+short_description: Enterprise-grade sovereign AI orchestration platform for agentic intelligence, computational biology, and zero-trust healthcare deployment.
 ---
 
 <p align="center">
