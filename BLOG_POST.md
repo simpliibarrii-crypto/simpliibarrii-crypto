@@ -1,6 +1,6 @@
 # The Raven Manifesto: Sovereign AI for the Next Decade
 
-**By Brian Clerjuste** · June 2026
+**By Barry Clerjuste** · June 2026
 
 ---
 
@@ -109,4 +109,4 @@ This is open source. Not open *core*. Not source-available. Apache 2.0 licensed,
 
 *The future of AI isn't in the cloud. It's wherever your data lives. Sovereign, local-first, zero-trust — that's the Raven way.*
 
-*— Brian Clerjuste*
+*— Barry Clerjuste*

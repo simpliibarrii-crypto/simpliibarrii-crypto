@@ -2,7 +2,7 @@
 
 ## Project Lead
 
-* **Brian Clerjuste** — bclerjuste@gmail.com
+* **Barry Clerjuste** — bclerjuste@gmail.com
   * Architecture, security, and strategy
 
 ## Core Contributors

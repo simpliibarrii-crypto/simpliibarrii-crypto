@@ -20,7 +20,7 @@ framework ensures transparency, accountability, and community-driven evolution.
 
 The ESC provides strategic direction and oversees major project decisions.
 
-* **Brian Clerjuste** — Project Lead, Architecture & Security
+* **Barry Clerjuste** — Project Lead, Architecture & Security
 * *Community representatives* — (To be elected as community grows)
 
 ### Technical Steering Committee (TSC)
