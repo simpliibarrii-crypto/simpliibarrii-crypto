@@ -80,6 +80,23 @@ raven-ai/
 | [Home for AI](https://github.com/simpliibarrii-crypto/home-for-ai) | Enterprise-grade AI orchestration and workflow management | Local-first deployment for research institutions |
 | [Hermes Edge](https://github.com/simpliibarrii-crypto/hermes-edge) | Edge optimization and infrastructure products | Edge computing solutions for distributed systems |
 
+## Quickstart
+
+```python
+from raven_ai import __version__
+
+print(f"Raven AI v{__version__}")
+
+# Example: orchestrate a local-first agent workflow
+# See https://github.com/simpliibarrii-crypto/raven-ai for full docs
+```
+
+Install with pip:
+
+```bash
+pip install raven-ai
+```
+
 ## Technology Stack
 
 <p align="center">
@@ -119,6 +136,17 @@ Mission-critical systems with 99.99% uptime SLAs and proactive monitoring.
   <img src="https://github-profile-trophy.vercel.app/?username=simpliibarrii-crypto&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&row=1" alt="GitHub trophies" />
 </p>
 
+## FAQ
+
+**What is Raven AI?**
+Raven AI is an enterprise-grade sovereign AI orchestration platform for agentic intelligence, computational biology, and zero-trust healthcare deployment. It is the flagship project of the Simpliibarrii Crypto organization.
+
+**How are the projects related?**
+All repositories under this organization share a common architecture: local-first, zero-trust AI systems. [Raven AI](https://github.com/simpliibarrii-crypto/raven-ai) is the core agent platform, [OpenClinical AI](https://github.com/simpliibarrii-crypto/openclinical-ai) adds healthcare governance, [Home for AI](https://github.com/simpliibarrii-crypto/home-for-ai) provides enterprise orchestration, and [Hermes Edge](https://github.com/simpliibarrii-crypto/hermes-edge) handles edge optimization.
+
+**How is this project licensed?**
+This project is licensed under Apache 2.0 — see the [LICENSE](LICENSE) file for details.
+
 ## Enterprise Collaboration Network
 
 Raven AI is the backbone of computational biology and clinical AI research across:
@@ -128,7 +156,7 @@ Raven AI is the backbone of computational biology and clinical AI research acros
 - **Global AI startups** integrating cutting-edge agent orchestration
 - **Academic labs** conducting reproducible scientific research
 
-The platform has been deployed in environments processing terabytes of biological data, supporting 10,000+ concurrent users, and maintaining zero-downtime for critical clinical workflows.
+The platform has been deployed in environments processing terabytes of biological data, supporting 10,000+ concurrent users, and maintaining zero-downtime for critical clinical workflows. Licensed under Apache 2.0.
 
 ## Enterprise Contact
 
