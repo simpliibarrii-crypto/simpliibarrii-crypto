@@ -1,7 +1,7 @@
 ---
 language:
 - en
-license: mit
+license: apache-2.0
 tags:
 - raven-ai
 - ai-orchestration
@@ -14,6 +14,15 @@ pipeline_tag: text-generation
 
 <p align="center">
    <img src="assets/raven-logo.svg" alt="Raven AI Logo" width="200" height="200" />
+</p>
+
+<p align="center">
+  <a href="https://huggingface.co/bclermo/raven-ai"><img src="https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face%20Model-FFD21E?style=flat-square" alt="Hugging Face Model"></a>
+  <a href="https://huggingface.co/spaces/bclermo/raven-ai"><img src="https://img.shields.io/badge/%F0%9F%9A%80-Hugging%20Face%20Space-FF6B6B?style=flat-square" alt="Hugging Face Space"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue?style=flat-square" alt="License"></a>
+  <a href="https://github.com/simpliibarrii-crypto/raven-ai/releases"><img src="https://img.shields.io/github/v/release/simpliibarrii-crypto/raven-ai?style=flat-square" alt="Release"></a>
+  <a href="https://github.com/simpliibarrii-crypto/raven-ai/actions"><img src="https://img.shields.io/github/actions/workflow/status/simpliibarrii-crypto/raven-ai/ci.yml?style=flat-square&label=CI" alt="CI"></a>
+  <a href="CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-2.0-purple?style=flat-square" alt="Code of Conduct"></a>
 </p>
 
 <h1 align="center">Barry Clerjuste</h1>

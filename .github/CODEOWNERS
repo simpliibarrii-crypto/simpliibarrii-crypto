@@ -1,0 +1,6 @@
+# Global owners
+* @bclerjuste
+
+# Security-sensitive changes
+SECURITY.md @bclerjuste
+.github/ @bclerjuste

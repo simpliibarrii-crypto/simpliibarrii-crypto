@@ -1,0 +1,70 @@
+{
+  "name": "Raven AI",
+  "short_description": "Enterprise agentic AI for computational biology and healthcare",
+  "repository": "https://github.com/simpliibarrii-crypto/raven-ai",
+  
+  "app_icons": [
+    {
+      "platform": "ios",
+      "path": "assets/ios-icon-1024x1024.png",
+      "size_description": "1024×1024 pixels for iOS App Store"
+    },
+    {
+      "platform": "android",
+      "path": "assets/android-icon-512x512.png",
+      "size_description": "512×1024 pixels for Google Play Store"
+    },
+    {
+      "platform": "macos",
+      "path": "assets/mac-icon-1024x1024.png",
+      "size_description": "1024×1024 pixels for macOS App Store"
+    }
+  ],
+  
+  "screenshots": [
+    {
+      "platform": "ios",
+      "path": "assets/ios-screenshot-1.png",
+      "description": "Raven AI agent orchestration control panel"
+    },
+    {
+      "platform": "android",
+      "path": "assets/android-screenshot-1.png",
+      "description": "Agent workflow management interface"
+    },
+    {
+      "platform": "web",
+      "path": "assets/web-agent-dashboard.png",
+      "description": "Multi-agent coordination visualization"
+    }
+  ],
+  
+  "banner_images": [
+    {
+      "platform": "app_store",
+      "path": "assets/ios-banner-1536x768.jpg",
+      "size_description": "1536×768 pixels for App Store header"
+    },
+    {
+      "platform": "play_store",
+      "path": "assets/android-banner-2560x1440.jpg",
+      "size_description": "2560×1440 pixels for Play Store header"
+    }
+  ],
+  
+  "store_metadata": {
+    "apple_app_store": {
+      "bundle_id": "com.raven-ai.agentic",
+      "categories": ["Productivity", "Business", "Science"],
+      "keywords": ["AI", "agentic", "orchestration", "biology", "healthcare", "multi-agent", "tool-routing", "scientific-discovery"],
+      "description": "Enterprise-grade agentic AI platform for computational biology and healthcare research. Features intelligent tool routing, multi-agent orchestration, literature analysis, and experimental workflow planning for Fortune 500 biotech and healthcare companies."
+    },
+    
+    "google_play_store": {
+      "package_name": "com.raven-ai.agentic",
+      "categories": ["Productivity", "Business", "Science"],
+      "keywords": ["ai", "agentic", "orchestration", "biology", "healthcare", "multi-agent", "tool routing", "scientific discovery"],
+      "description": "Enterprise agentic AI for computational biology and healthcare. Intelligent tool routing, multi-agent orchestration, and literature-grounded workflows for research institutions and biotech companies."
+    }
+  }
+}

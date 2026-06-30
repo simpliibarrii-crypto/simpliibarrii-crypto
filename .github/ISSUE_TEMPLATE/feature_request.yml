@@ -1,0 +1,26 @@
+name: Feature Request
+description: Suggest an idea for this project
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new feature!
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Is your feature request related to a problem?
+      placeholder: I'm always frustrated when...
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solution
+      description: What solution would you like?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: What alternatives have you considered?
