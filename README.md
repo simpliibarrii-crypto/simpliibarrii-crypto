@@ -1,5 +1,19 @@
+---
+language:
+- en
+license: mit
+tags:
+- raven-ai
+- ai-orchestration
+- sovereign-computing
+- zero-trust
+- local-first
+library_name: custom
+pipeline_tag: text-generation
+---
+
 <p align="center">
-   <img src="assets/raven-ai-banner.svg" alt="Raven AI banner" width="100%" />
+   <img src="assets/raven-logo.svg" alt="Raven AI Logo" width="200" height="200" />
 </p>
 
 <h1 align="center">Barry Clerjuste</h1>
@@ -18,6 +32,10 @@
    <a href="https://github.com/simpliibarrii-crypto/home-for-ai"><img alt="Home for AI" src="https://img.shields.io/badge/Enterprise-Home_for_AI-30363D?style=for-the-badge&labelColor=05060A"></a>
    <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=simpliibarrii-crypto&style=for-the-badge&color=C8102E&label=views">
    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/simpliibarrii-crypto/raven-ai?style=for-the-badge&color=goldenrod&label=stars">
+</p>
+
+<p align="center">
+   <img src="assets/raven-ai-banner.svg" alt="Raven AI banner" width="100%" />
 </p>
 
 ---
