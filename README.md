@@ -14,7 +14,7 @@ tags:
 - local-first
 library_name: custom
 pipeline_tag: text-generation
-short_description: Enterprise-grade sovereign AI orchestration platform for agentic intelligence, computational biology, and zero-trust healthcare deployment.
+short_description: Sovereign AI orchestration platform for agentic intelligence, computational biology, and zero-trust healthcare deployment.
 ---
 
 <p align="center">
@@ -42,8 +42,8 @@ short_description: Enterprise-grade sovereign AI orchestration platform for agen
 
 <p align="center">
    <a href="https://github.com/simpliibarrii-crypto/raven-ai"><img alt="Raven AI" src="https://img.shields.io/badge/Flagship-Raven_AI-C8102E?style=for-the-badge&labelColor=05060A"></a>
-   <a href="https://github.com/simpliibarrii-crypto/openclinical-ai"><img alt="OpenClinical AI" src="https://img.shields.io/badge/Clinical_OpenClinical_AI-8B0000?style=for-the-badge&labelColor=05060A"></a>
-   <a href="https://github.com/simpliibarrii-crypto/home-for-ai"><img alt="Home for AI" src="https://img.shields.io/badge/Enterprise-Home_for_AI-30363D?style=for-the-badge&labelColor=05060A"></a>
+   <a href="https://github.com/simpliibarrii-crypto"><img alt="GitHub Org" src="https://img.shields.io/badge/Explore-All_Projects-8B0000?style=for-the-badge&labelColor=05060A"></a>
+   <a href="https://github.com/simpliibarrii-crypto"><img alt="Home for AI" src="https://img.shields.io/badge/Explore-All_Projects-30363D?style=for-the-badge&labelColor=05060A"></a>
    <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=simpliibarrii-crypto&style=for-the-badge&color=C8102E&label=views">
    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/simpliibarrii-crypto/raven-ai?style=for-the-badge&color=goldenrod&label=stars">
 </p>
@@ -56,7 +56,7 @@ short_description: Enterprise-grade sovereign AI orchestration platform for agen
 
 ## Mission & Vision
 
-Building proprietary AI systems for computational biology and healthcare infrastructure, with focus on high-performance AI agent coordination, advanced biological data processing, and production-ready ML deployment at scale.
+Building open-source AI systems for computational biology and healthcare infrastructure, with focus on high-performance AI agent coordination, advanced biological data processing, and production-ready ML deployment at scale.
 
 The resulting systems enable autonomous scientific research through sophisticated reasoning engines that integrate multiple tools, analyze research literature systematically, plan experimental workflows with precision, and deliver inspected, auditable, and reproducible research outputs for enterprise environments.
 
@@ -71,14 +71,14 @@ raven-ai/
 └── reproducibility     # workflow provenance, comprehensive testing, audit-ready outputs
 ```
 
-## Enterprise Product Portfolio
+## Project Portfolio
 
-| Product | Strategic Role | Enterprise Deployment |
+| Project | Description | Status |
 |---|---|---|
-| [Raven AI](https://github.com/simpliibarrii-crypto/raven-ai) | Core agent platform for computational biology and healthcare | Production-grade AI infrastructure for Fortune 500 labs |
-| [OpenClinical AI](https://github.com/simpliibarrii-crypto/openclinical-ai) | Healthcare deployment layer with clinical governance | HIPAA-compliant deployment for healthcare systems |
-| [Home for AI](https://github.com/simpliibarrii-crypto/home-for-ai) | Enterprise-grade AI orchestration and workflow management | Local-first deployment for research institutions |
-| [Hermes Edge](https://github.com/simpliibarrii-crypto/hermes-edge) | Edge optimization and infrastructure products | Edge computing solutions for distributed systems |
+| [Raven AI](https://github.com/simpliibarrii-crypto/raven-ai) | Core agent platform for computational biology and healthcare | Active development |
+| [OpenClinical AI](https://github.com/simpliibarrii-crypto) | Healthcare deployment layer with clinical governance | In development |
+| [Home for AI](https://github.com/simpliibarrii-crypto) | AI orchestration and workflow management | In development |
+| [Hermes Edge](https://github.com/simpliibarrii-crypto) | Edge optimization and infrastructure products | In development |
 
 ## Quickstart
 
