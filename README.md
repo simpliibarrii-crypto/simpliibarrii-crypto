@@ -1,169 +1,109 @@
----
-language:
-- en
-license: apache-2.0
-title: Raven AI
-emoji: 🦅
-colorFrom: indigo
-colorTo: red
-tags:
-- raven-ai
-- ai-orchestration
-- sovereign-computing
-- zero-trust
-- local-first
-library_name: custom
-pipeline_tag: text-generation
-short_description: Sovereign AI orchestration platform for agentic intelligence, computational biology, and zero-trust healthcare deployment.
----
-
 <p align="center">
-   <img src="assets/raven-logo.svg" alt="Raven AI Logo" width="200" height="200" />
-</p>
-
-<p align="center">
-  <a href="https://huggingface.co/bclermo/raven-ai"><img src="https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face%20Model-FFD21E?style=flat-square" alt="Hugging Face Model"></a>
-  <a href="https://huggingface.co/spaces/bclermo/raven-ai"><img src="https://img.shields.io/badge/%F0%9F%9A%80-Hugging%20Face%20Space-FF6B6B?style=flat-square" alt="Hugging Face Space"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue?style=flat-square" alt="License"></a>
-  <a href="https://github.com/simpliibarrii-crypto/raven-ai/releases"><img src="https://img.shields.io/github/v/release/simpliibarrii-crypto/raven-ai?style=flat-square" alt="Release"></a>
-  <a href="https://github.com/simpliibarrii-crypto/raven-ai/actions"><img src="https://img.shields.io/github/actions/workflow/status/simpliibarrii-crypto/raven-ai/ci.yml?style=flat-square&label=CI" alt="CI"></a>
-  <a href="CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-2.0-purple?style=flat-square" alt="Code of Conduct"></a>
+  <img src="assets/raven-ai-banner.svg" alt="Raven AI ecosystem banner" width="100%" />
 </p>
 
 <h1 align="center">Barry Clerjuste</h1>
 
 <p align="center">
-   <strong>Senior AI Systems Architect & Open-Source Contributor</strong>
+  <strong>Clinical AI builder focused on local-first agents, healthcare workflow infrastructure, and biology AI systems.</strong>
 </p>
 
 <p align="center">
-   <strong>Leader in enterprise-grade agentic AI infrastructure, computational biology pipelines, and clinical deployment frameworks.</strong>
+  <a href="https://github.com/simpliibarrii-crypto/raven-ai"><img alt="Raven AI" src="https://img.shields.io/badge/Flagship-Raven_AI-C8102E?style=for-the-badge&labelColor=05060A"></a>
+  <a href="https://github.com/simpliibarrii-crypto/openclinical-ai"><img alt="OpenClinical AI" src="https://img.shields.io/badge/Clinical-OpenClinical_AI-8B0000?style=for-the-badge&labelColor=05060A"></a>
+  <a href="https://github.com/simpliibarrii-crypto/home-for-ai"><img alt="Home for AI" src="https://img.shields.io/badge/Local--first-Home_for_AI-30363D?style=for-the-badge&labelColor=05060A"></a>
 </p>
 
 <p align="center">
-   <a href="https://github.com/simpliibarrii-crypto/raven-ai"><img alt="Raven AI" src="https://img.shields.io/badge/Flagship-Raven_AI-C8102E?style=for-the-badge&labelColor=05060A"></a>
-   <a href="https://github.com/simpliibarrii-crypto"><img alt="GitHub Org" src="https://img.shields.io/badge/Explore-All_Projects-8B0000?style=for-the-badge&labelColor=05060A"></a>
-   <a href="https://github.com/simpliibarrii-crypto"><img alt="Home for AI" src="https://img.shields.io/badge/Explore-All_Projects-30363D?style=for-the-badge&labelColor=05060A"></a>
-   <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=simpliibarrii-crypto&style=for-the-badge&color=C8102E&label=views">
-   <img alt="GitHub Stars" src="https://img.shields.io/github/stars/simpliibarrii-crypto/raven-ai?style=for-the-badge&color=goldenrod&label=stars">
-</p>
-
-<p align="center">
-   <img src="assets/raven-ai-banner.svg" alt="Raven AI banner" width="100%" />
+  <a href="https://hf.co/bclermo"><img src="https://img.shields.io/badge/Hugging_Face-bclermo-FFD21E?style=flat-square" alt="Hugging Face profile"></a>
+  <a href="https://github.com/simpliibarrii-crypto"><img src="https://img.shields.io/badge/GitHub-simpliibarrii--crypto-181717?style=flat-square&logo=github" alt="GitHub profile"></a>
+  <a href="mailto:simpliibarrii@outlook.com"><img src="https://img.shields.io/badge/Email-simpliibarrii%40outlook.com-blue?style=flat-square" alt="Email"></a>
 </p>
 
 ---
 
-## Mission & Vision
+## What I Am Building
 
-Building open-source AI systems for computational biology and healthcare infrastructure, with focus on high-performance AI agent coordination, advanced biological data processing, and production-ready ML deployment at scale.
+I am building the Raven AI ecosystem: a set of open-source projects for practical AI agents in healthcare, biology, and local-first computing.
 
-The resulting systems enable autonomous scientific research through sophisticated reasoning engines that integrate multiple tools, analyze research literature systematically, plan experimental workflows with precision, and deliver inspected, auditable, and reproducible research outputs for enterprise environments.
+The focus is simple: make AI systems that can be inspected, run close to the data, respect clinical workflow constraints, and grow from real user needs instead of empty demos.
 
-## Current Research Focus
-
-```text
-raven-ai/
-├── agentic-ai          # enterprise tool routing, intelligent planning, multi-agent orchestration
-├── computational-bio   # genomics analytics, protein structure prediction, literature-grounded workflows
-├── healthcare-ai       # clinical governance, audit trails, PHI-aware systems, evidence retrieval
-├── local-first-ai      # production deployment infrastructure, edge computing optimization
-└── reproducibility     # workflow provenance, comprehensive testing, audit-ready outputs
-```
-
-## Project Portfolio
-
-| Project | Description | Status |
+| Project | Role | Current Focus |
 |---|---|---|
-| [Raven AI](https://github.com/simpliibarrii-crypto/raven-ai) | Core agent platform for computational biology and healthcare | Active development |
-| [OpenClinical AI](https://github.com/simpliibarrii-crypto) | Healthcare deployment layer with clinical governance | In development |
-| [Home for AI](https://github.com/simpliibarrii-crypto) | AI orchestration and workflow management | In development |
-| [Hermes Edge](https://github.com/simpliibarrii-crypto) | Edge optimization and infrastructure products | In development |
+| [Raven AI](https://github.com/simpliibarrii-crypto/raven-ai) | Flagship agent platform | Biology and healthcare agent workflows |
+| [OpenClinical AI](https://github.com/simpliibarrii-crypto/openclinical-ai) | Clinical runtime layer | PSW shift handoff, consent, audit, signed model loading |
+| [Home for AI](https://github.com/simpliibarrii-crypto/home-for-ai) | Local orchestration layer | Desktop/local-first agent coordination |
 
-## Quickstart
+## Core Direction
 
-```python
-from raven_ai import __version__
+- Clinical AI that supports care teams without pretending to replace them.
+- Biology AI workflows that connect research, evidence, and reproducible automation.
+- Local-first infrastructure for smaller teams, edge devices, and privacy-sensitive environments.
+- Signed model registries, audit trails, tenant boundaries, and clear deployment paths.
+- Practical documentation, smoke tests, and demos that show what works today.
 
-print(f"Raven AI v{__version__}")
+## Featured Work
 
-# Example: orchestrate a local-first agent workflow
-# See https://github.com/simpliibarrii-crypto/raven-ai for full docs
-```
+### OpenClinical AI
 
-Install with pip:
+A development-preview clinical AI runtime for PSWs, nurses, healthcare builders, and supervised workflow demos.
 
-```bash
-pip install raven-ai
-```
+- FastAPI runtime
+- Signed model manifest loading
+- Tenant-aware APIs
+- Consent token checks
+- Append-only audit logging
+- PSW shift handoff MVP
 
-## Technology Stack
+Links: [GitHub](https://github.com/simpliibarrii-crypto/openclinical-ai) · [Hugging Face model](https://hf.co/bclermo/openclinical-ai) · [Hugging Face Space](https://hf.co/spaces/bclermo/openclinical-ai)
+
+### Raven AI
+
+The flagship project for agentic biology and healthcare workflows.
+
+- Research and evidence workflows
+- Agent orchestration direction
+- Clinical and biology surfaces
+- Local-first architecture previews
+
+Links: [GitHub](https://github.com/simpliibarrii-crypto/raven-ai) · [Hugging Face model](https://hf.co/bclermo/raven-ai) · [Hugging Face Space](https://hf.co/spaces/bclermo/raven-ai)
+
+### Home for AI
+
+A local orchestration surface for coordinating agent workflows across personal and small-team compute.
+
+Links: [GitHub](https://github.com/simpliibarrii-crypto/home-for-ai) · [Hugging Face model](https://hf.co/bclermo/home-for-ai) · [Hugging Face Space](https://hf.co/spaces/bclermo/home-for-ai)
+
+## Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,rust,ts,react,fastapi,pytorch,docker,kubernetes,postgres,redis,linux,githubactions,git,vscode&perline=7" alt="Technology stack" />
+  <img src="https://skillicons.dev/icons?i=python,fastapi,typescript,react,rust,pytorch,docker,linux,git,githubactions&perline=10" alt="Technology stack" />
 </p>
 
 ```text
-Enterprise Stack: Python · Rust · TypeScript · LangChain · FastAPI · PyTorch · Spark
-Cloud: AWS (S3, EC2, Lambda), GCP, Azure
-Containers: Docker · Kubernetes
-Observability: OpenTelemetry · Prometheus · Grafana
-Security: MFA · RBAC · ISO 27001 · HIPAA
+Primary: Python, FastAPI, TypeScript, React, Rust
+AI/ML: PyTorch, model cards, signed manifests, agent workflows
+Systems: local-first runtimes, Docker, Linux, CI, audit-friendly APIs
+Domains: clinical workflow, long-term care, biology AI, healthcare infrastructure
 ```
 
-## Enterprise Operating Principles
-
-```text
-Enterprise-grade systems that security teams can verify.
-Zero-trust architecture with least privilege access controls.
-Production-ready workflows with comprehensive audit trails.
-Enterprise deployment automation with scalability at the core.
-Mission-critical systems with 99.99% uptime SLAs and proactive monitoring.
-```
-
-## Enterprise Metrics
+## GitHub Activity
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=simpliibarrii-crypto&show_icons=true&hide_border=true&theme=transparent&title_color=C8102E&icon_color=C8102E&text_color=8B949E" alt="GitHub stats" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=simpliibarrii-crypto&layout=compact&hide_border=true&theme=transparent&title_color=C8102E&text_color=8B949E" alt="Top languages" />
 </p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=simpliibarrii-crypto&hide_border=true&theme=transparent&ring=C8102E&fire=C8102E&currStreakLabel=C8102E" alt="GitHub streak" />
-</p>
+## Current Priority
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=simpliibarrii-crypto&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&row=1" alt="GitHub trophies" />
-</p>
+The immediate priority is hardening `openclinical-ai` into a clean, runnable MVP with honest docs, reproducible tests, and a clear demo flow. After that, `raven-ai` becomes the broader agentic layer and `home-for-ai` becomes the local orchestration shell.
 
-## FAQ
-
-**What is Raven AI?**
-Raven AI is an enterprise-grade sovereign AI orchestration platform for agentic intelligence, computational biology, and zero-trust healthcare deployment. It is the flagship project of the Simpliibarrii Crypto organization.
-
-**How are the projects related?**
-All repositories under this organization share a common architecture: local-first, zero-trust AI systems. [Raven AI](https://github.com/simpliibarrii-crypto/raven-ai) is the core agent platform, [OpenClinical AI](https://github.com/simpliibarrii-crypto/openclinical-ai) adds healthcare governance, [Home for AI](https://github.com/simpliibarrii-crypto/home-for-ai) provides enterprise orchestration, and [Hermes Edge](https://github.com/simpliibarrii-crypto/hermes-edge) handles edge optimization.
-
-**How is this project licensed?**
-This project is licensed under Apache 2.0 — see the [LICENSE](LICENSE) file for details.
-
-## Enterprise Collaboration Network
-
-Raven AI is the backbone of computational biology and clinical AI research across:
-- **Fortune 500 Life Sciences companies** deploying agentic AI in drug discovery pipelines
-- **Leading research institutions** using autonomous literature analysis and hypothesis generation
-- **Healthcare systems** implementing HIPAA-compliant clinical decision support
-- **Global AI startups** integrating cutting-edge agent orchestration
-- **Academic labs** conducting reproducible scientific research
-
-The platform has been deployed in environments processing terabytes of biological data, supporting 10,000+ concurrent users, and maintaining zero-downtime for critical clinical workflows. Licensed under Apache 2.0.
-
-## Enterprise Contact
+## Contact
 
 - GitHub: [@simpliibarrii-crypto](https://github.com/simpliibarrii-crypto)
-- Email: [bclerjuste@enterprise.bio](mailto:bclerjuste@enterprise.bio)
-- LinkedIn: [Barry Clerjuste](https://linkedin.com/in/barryclerjuste)
+- Hugging Face: [@bclermo](https://hf.co/bclermo)
+- Email: [simpliibarrii@outlook.com](mailto:simpliibarrii@outlook.com)
 
 <p align="center">
-  <sub>Raven AI: Enterprise-grade AI infrastructure for agentic intelligence, computational biology, and healthcare systems.</sub>
+  <sub>Building practical AI infrastructure for healthcare, biology, and local-first agent systems.</sub>
 </p>
