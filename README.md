@@ -5,87 +5,82 @@
 <h1 align="center">Barry Clerjuste</h1>
 
 <p align="center">
-  <strong>Clinical AI builder focused on local-first agents, healthcare workflow infrastructure, and biology AI systems.</strong>
+  <strong>Sovereign AI Engineer • Building local-first agentic systems for biology & healthcare</strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/simpliibarrii-crypto/raven-ai"><img alt="Raven AI" src="https://img.shields.io/badge/Flagship-Raven_AI-C8102E?style=for-the-badge&labelColor=05060A"></a>
   <a href="https://github.com/simpliibarrii-crypto/openclinical-ai"><img alt="OpenClinical AI" src="https://img.shields.io/badge/Clinical-OpenClinical_AI-8B0000?style=for-the-badge&labelColor=05060A"></a>
   <a href="https://github.com/simpliibarrii-crypto/home-for-ai"><img alt="Home for AI" src="https://img.shields.io/badge/Local--first-Home_for_AI-30363D?style=for-the-badge&labelColor=05060A"></a>
+  <a href="https://github.com/simpliibarrii-crypto/hermes-edge"><img alt="Hermes Edge" src="https://img.shields.io/badge/Edge-Hermes_Edge-4B0082?style=for-the-badge&labelColor=05060A"></a>
 </p>
 
 <p align="center">
-  <a href="https://hf.co/bclermo"><img src="https://img.shields.io/badge/Hugging_Face-bclermo-FFD21E?style=flat-square" alt="Hugging Face profile"></a>
+  <a href="https://hf.co/bclermo"><img src="https://img.shields.io/badge/Hugging_Face-bclermo-FFD21E?style=flat-square&logo=huggingface" alt="Hugging Face profile"></a>
   <a href="https://github.com/simpliibarrii-crypto"><img src="https://img.shields.io/badge/GitHub-simpliibarrii--crypto-181717?style=flat-square&logo=github" alt="GitHub profile"></a>
   <a href="mailto:simpliibarrii@outlook.com"><img src="https://img.shields.io/badge/Email-simpliibarrii%40outlook.com-blue?style=flat-square" alt="Email"></a>
 </p>
 
 ---
 
-## What I Am Building
+## 🦅 Raven AI Ecosystem
 
-I am building the Raven AI ecosystem: a set of open-source projects for practical AI agents in healthcare, biology, and local-first computing.
+Local-first, sovereign agentic platforms for practical biology, healthcare, and reproducible science. **Cheap. Fast. Auditable. Under your control.**
 
-The focus is simple: make AI systems that can be inspected, run close to the data, respect clinical workflow constraints, and grow from real user needs instead of empty demos.
+### Ecosystem Overview
 
-| Project | Role | Current Focus |
-|---|---|---|
-| [Raven AI](https://github.com/simpliibarrii-crypto/raven-ai) | Flagship agent platform | Biology and healthcare agent workflows |
-| [OpenClinical AI](https://github.com/simpliibarrii-crypto/openclinical-ai) | Clinical runtime layer | PSW shift handoff, consent, audit, signed model loading |
-| [Home for AI](https://github.com/simpliibarrii-crypto/home-for-ai) | Local orchestration layer | Desktop/local-first agent coordination |
+```mermaid
+flowchart TD
+    subgraph "Raven AI Core"
+        Core[Raven AI]:::core
+    end
+    subgraph "Deployment Surfaces"
+        Edge[Hermes Edge - On-device/GPU-first]:::edge
+        Desktop[Home for AI - Local Orchestration]:::desktop
+        Clinical[OpenClinical AI - Clinical Layer]:::clinical
+    end
+    Core --> Edge
+    Core --> Desktop
+    Core --> Clinical
+    style Core fill:#E3F2FD,stroke:#1976D2
+    style Edge fill:#F3E5F5,stroke:#7B1FA2
+    style Desktop fill:#FFF3E0,stroke:#F57C00
+    style Clinical fill:#E8F5E9,stroke:#388E3C
+```
 
-## Core Direction
+**Current Highlights** (updated July 2026):
+- Enhanced Raven AI with visual architecture diagrams, Token Economy, Evidence Graphs
+- Edge routing with LiteRT-LM & Gemma models on mobile/edge devices
+- Clinical MVP with consent, audit, signed models for real workflows
 
-- Clinical AI that supports care teams without pretending to replace them.
-- Biology AI workflows that connect research, evidence, and reproducible automation.
-- Local-first infrastructure for smaller teams, edge devices, and privacy-sensitive environments.
-- Signed model registries, audit trails, tenant boundaries, and clear deployment paths.
-- Practical documentation, smoke tests, and demos that show what works today.
+## What I'm Building
 
-## Featured Work
+Practical AI that supports researchers, clinicians, and builders without cloud dependency or black-box risks.
 
-### OpenClinical AI
+| Project | Focus | Status |
+|---------|-------|--------|
+| **[Raven AI](https://github.com/simpliibarrii-crypto/raven-ai)** | Flagship agent platform with Evidence Graphs & Token Economy | Active - Major README upgrade with diagrams |
+| **[Hermes Edge](https://github.com/simpliibarrii-crypto/hermes-edge)** | GPU-first on-device agents (phones, laptops) | Active |
+| **[Home for AI](https://github.com/simpliibarrii-crypto/home-for-ai)** | Local Tauri desktop orchestration | Active |
+| **[OpenClinical AI](https://github.com/simpliibarrii-crypto/openclinical-ai)** | PHI-aware clinical runtime | Active MVP |
 
-A development-preview clinical AI runtime for PSWs, nurses, healthcare builders, and supervised workflow demos.
+## Core Principles
 
-- FastAPI runtime
-- Signed model manifest loading
-- Tenant-aware APIs
-- Consent token checks
-- Append-only audit logging
-- PSW shift handoff MVP
+- **Sovereign & Local-First**: Run close to data, inspectable models, no mandatory cloud
+- **Evidence-Driven**: Verifiable provenance with Evidence Graphs for every claim
+- **Efficient**: Token Economy for cheap, measurable agent workflows
+- **Clinical-Ready**: Consent, audit, signed manifests for healthcare workflows
+- **Reproducible Science**: Benchmark gates & scientific run manifests
 
-Links: [GitHub](https://github.com/simpliibarrii-crypto/openclinical-ai) · [Hugging Face model](https://hf.co/bclermo/openclinical-ai) · [Hugging Face Space](https://hf.co/spaces/bclermo/openclinical-ai)
-
-### Raven AI
-
-The flagship project for agentic biology and healthcare workflows.
-
-- Research and evidence workflows
-- Agent orchestration direction
-- Clinical and biology surfaces
-- Local-first architecture previews
-
-Links: [GitHub](https://github.com/simpliibarrii-crypto/raven-ai) · [Hugging Face model](https://hf.co/bclermo/raven-ai) · [Hugging Face Space](https://hf.co/spaces/bclermo/raven-ai)
-
-### Home for AI
-
-A local orchestration surface for coordinating agent workflows across personal and small-team compute.
-
-Links: [GitHub](https://github.com/simpliibarrii-crypto/home-for-ai) · [Hugging Face model](https://hf.co/bclermo/home-for-ai) · [Hugging Face Space](https://hf.co/spaces/bclermo/home-for-ai)
-
-## Stack
+## Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,typescript,react,rust,pytorch,docker,linux,git,githubactions&perline=10" alt="Technology stack" />
+  <img src="https://skillicons.dev/icons?i=python,fastapi,typescript,react,rust,pytorch,tensorflow,tauri,docker,linux,git,githubactions,sqlite&perline=8" alt="Technology stack" />
 </p>
 
-```text
-Primary: Python, FastAPI, TypeScript, React, Rust
-AI/ML: PyTorch, model cards, signed manifests, agent workflows
-Systems: local-first runtimes, Docker, Linux, CI, audit-friendly APIs
-Domains: clinical workflow, long-term care, biology AI, healthcare infrastructure
-```
+**Primary**: Python, FastAPI, TypeScript/React, Rust/Tauri  
+**AI**: PyTorch, LiteRT-LM, Gemma models, agent routing  
+**Infra**: Local-first, Docker, audit logs, CI/CD  
 
 ## GitHub Activity
 
@@ -94,16 +89,24 @@ Domains: clinical workflow, long-term care, biology AI, healthcare infrastructur
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=simpliibarrii-crypto&layout=compact&hide_border=true&theme=transparent&title_color=C8102E&text_color=8B949E" alt="Top languages" />
 </p>
 
-## Current Priority
+## Current Focus & Paper
 
-The immediate priority is hardening `openclinical-ai` into a clean, runnable MVP with honest docs, reproducible tests, and a clear demo flow. After that, `raven-ai` becomes the broader agentic layer and `home-for-ai` becomes the local orchestration shell.
+Hardening the full Raven stack for production-like local use cases in long-term care and biology research. Preparing paper on **local routing policy, Token Economy, and Evidence Graphs** for agentic scientific AI.
 
-## Contact
+**Recent**: Major visual & documentation upgrades across repos for better discoverability and professionalism.
 
-- GitHub: [@simpliibarrii-crypto](https://github.com/simpliibarrii-crypto)
-- Hugging Face: [@bclermo](https://hf.co/bclermo)
-- Email: [simpliibarrii@outlook.com](mailto:simpliibarrii@outlook.com)
+## Get Involved
+
+- Star the projects if you value sovereign AI infrastructure ⭐
+- Open issues/PRs with real use cases
+- Follow progress on X (@Barclermo)
+
+---
 
 <p align="center">
-  <sub>Building practical AI infrastructure for healthcare, biology, and local-first agent systems.</sub>
+  <sub>Building the future of auditable, local-first AI for healthcare & biology. Open to collaborations on sovereign agent systems.</sub>
+</p>
+
+<p align="center">
+  <em>Made with ❤️ for practical builders — extreme improvements powered by Grok connections.</em>
 </p>
