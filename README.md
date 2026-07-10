@@ -19,7 +19,8 @@
   <a href="https://barry-ai-public.simpliibarrii.chatgpt.site"><img src="https://img.shields.io/badge/Portfolio-Research_%26_Projects-7C5CFF?style=flat-square&logo=safari&logoColor=white" alt="AI research and projects portfolio"></a>
   <a href="https://hf.co/bclermo"><img src="https://img.shields.io/badge/Hugging_Face-bclermo-FFD21E?style=flat-square&logo=huggingface" alt="Hugging Face profile"></a>
   <a href="https://github.com/simpliibarrii-crypto"><img src="https://img.shields.io/badge/GitHub-simpliibarrii--crypto-181717?style=flat-square&logo=github" alt="GitHub profile"></a>
-  <a href="https://www.linkedin.com/in/barry-clerjuste-4ab72b226"><img src="https://img.shields.io/badge/LinkedIn-Barry_Clerjuste-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn profile"></a>\n  <a href="mailto:simpliibarrii@outlook.com"><img src="https://img.shields.io/badge/Email-simpliibarrii%40outlook.com-blue?style=flat-square" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/barry-clerjuste-4ab72b226"><img src="https://img.shields.io/badge/LinkedIn-Barry_Clerjuste-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn profile"></a>
+  <a href="mailto:simpliibarrii@outlook.com"><img src="https://img.shields.io/badge/Email-simpliibarrii%40outlook.com-blue?style=flat-square" alt="Email"></a>
 </p>
 
 ---
