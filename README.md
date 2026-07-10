@@ -16,6 +16,7 @@
 </p>
 
 <p align="center">
+  <a href="https://barry-ai-public.simpliibarrii.chatgpt.site"><img src="https://img.shields.io/badge/Portfolio-Research_%26_Projects-7C5CFF?style=flat-square&logo=safari&logoColor=white" alt="AI research and projects portfolio"></a>
   <a href="https://hf.co/bclermo"><img src="https://img.shields.io/badge/Hugging_Face-bclermo-FFD21E?style=flat-square&logo=huggingface" alt="Hugging Face profile"></a>
   <a href="https://github.com/simpliibarrii-crypto"><img src="https://img.shields.io/badge/GitHub-simpliibarrii--crypto-181717?style=flat-square&logo=github" alt="GitHub profile"></a>
   <a href="mailto:simpliibarrii@outlook.com"><img src="https://img.shields.io/badge/Email-simpliibarrii%40outlook.com-blue?style=flat-square" alt="Email"></a>
@@ -95,8 +96,13 @@ Hardening the full Raven stack for production-like local use cases in long-term 
 
 **Recent**: Major visual & documentation upgrades across repos for better discoverability and professionalism.
 
+## Portfolio & Research
+
+Explore the full public project index, research direction, and upcoming paper archive at **[barry-ai-public.simpliibarrii.chatgpt.site](https://barry-ai-public.simpliibarrii.chatgpt.site)**.
+
 ## Get Involved
 
+- Visit the public portfolio and research archive
 - Star the projects if you value sovereign AI infrastructure ⭐
 - Open issues/PRs with real use cases
 - Follow progress on X (@Barclermo)
