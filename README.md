@@ -7,8 +7,8 @@
 <p align="center">
   <a href="https://simpliibarrii-crypto.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/PORTFOLIO-LIVE_DEMOS-C8273F?style=for-the-badge&amp;labelColor=050505"></a>
   <a href="https://simpliibarrii-crypto.github.io/research.html"><img alt="Research archive" src="https://img.shields.io/badge/RESEARCH-PAPERS-C9AD7D?style=for-the-badge&amp;labelColor=050505"></a>
+  <a href="BRAND_SYSTEM.md"><img alt="Brand system" src="https://img.shields.io/badge/BRAND-SYSTEM-303036?style=for-the-badge&amp;labelColor=050505"></a>
   <a href="https://www.linkedin.com/in/barry-clerjuste-4ab72b226"><img alt="LinkedIn" src="https://img.shields.io/badge/LINKEDIN-CONNECT-303036?style=for-the-badge&amp;labelColor=050505"></a>
-  <a href="https://huggingface.co/bclermo"><img alt="Hugging Face" src="https://img.shields.io/badge/HUGGING_FACE-MODELS_%26_DEMOS-C9AD7D?style=for-the-badge&amp;labelColor=050505"></a>
 </p>
 
 <h2 align="center">AI Engineer · Agent Systems · Applied Research</h2>
@@ -28,12 +28,13 @@
 
 | System | What it demonstrates | Maturity | Live case study |
 |---|---|---:|---|
-| **[Home for AI](https://github.com/simpliibarrii-crypto/home-for-ai)** | React + Tauri command workspace for coordinating agents, local models, knowledge, and evidence traces | Active flagship redesign | **[Launch demo ↗](https://simpliibarrii-crypto.github.io/project.html?project=home-for-ai)** |
+| **[Home for AI](https://github.com/simpliibarrii-crypto/home-for-ai)** | React + Tauri command workplace for coordinating agents, local models, knowledge, and evidence traces | Active product | **[Launch demo ↗](https://simpliibarrii-crypto.github.io/project.html?project=home-for-ai)** |
 | **[Raven AI](https://github.com/simpliibarrii-crypto/raven-ai)** | Evidence Graphs, token-efficient agent policy, scientific run gates, and reproducible research workflows | Active research platform | **[Build an evidence trace ↗](https://simpliibarrii-crypto.github.io/project.html?project=raven-ai)** |
-| **[Hermes Edge](https://github.com/simpliibarrii-crypto/hermes-edge)** | Device-aware routing across deterministic tools, local models, GPU delegates, and benchmark-gated fallbacks | Active v0.3 | **[Test the routing policy ↗](https://simpliibarrii-crypto.github.io/project.html?project=hermes-edge)** |
+| **[Hermes Edge](https://github.com/simpliibarrii-crypto/hermes-edge)** | Device-aware routing across deterministic tools, local models, accelerated delegates, and benchmark-gated fallbacks | Active product | **[Test the routing policy ↗](https://simpliibarrii-crypto.github.io/project.html?project=hermes-edge)** |
 | **[OpenClinical AI](https://github.com/simpliibarrii-crypto/openclinical-ai)** | Consent-aware requests, tenant boundaries, signed model manifests, structured handoffs, and audit events | Development-preview MVP | **[Run the handoff demo ↗](https://simpliibarrii-crypto.github.io/project.html?project=openclinical-ai)** |
 | **[Raven BioComputer](https://github.com/simpliibarrii-crypto/simpliibarrii-crypto-raven-biocomputer)** | Bounded biology tools, isolated run workspaces, hashed artifacts, and reproducible receipts | Alpha research software | **[Analyze a sequence ↗](https://simpliibarrii-crypto.github.io/project.html?project=raven-biocomputer)** |
 | **JSpace Chain** | Observable, capacity-bounded agent control plane for routing, risk gates, reflection, and tamper-evident audit | Private research prototype | **[Inspect the policy demo ↗](https://simpliibarrii-crypto.github.io/project.html?project=jspace-chain)** |
+| **[LangChain NVIDIA Study](https://github.com/simpliibarrii-crypto/langchain-nvidia/blob/main/BARRY_INTEGRATION_STUDY.md)** | Attributed experiments in retrieval routing and accelerated agent execution | Attributed integration study | **[Inspect the route plan ↗](https://simpliibarrii-crypto.github.io/project.html?project=langchain-nvidia)** |
 
 <p align="center">
   <img src="assets/ecosystem-map.svg" alt="Raven AI ecosystem map connecting Home for AI, Hermes Edge, OpenClinical AI, Raven BioComputer, and JSpace Chain" width="100%" />
@@ -99,6 +100,12 @@ I study current AI-systems research, separate demonstrated findings from enginee
 <p align="center">
   <a href="https://simpliibarrii-crypto.github.io/research.html"><strong>Open the complete research archive →</strong></a>
 </p>
+
+## Unified product language
+
+The original product repositories follow the shared **[Raven Ecosystem Brand System](BRAND_SYSTEM.md)**: obsidian foundations, crimson active signals, champagne research details, editorial display type, monospace evidence metadata, canonical maturity labels, and explicit accessibility and attribution rules.
+
+The `langchain-nvidia` repository remains an attributed study of upstream work rather than a Raven-owned product.
 
 ## What I bring to a team
 
