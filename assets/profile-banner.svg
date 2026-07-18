@@ -1,0 +1,54 @@
+<svg width="1400" height="430" viewBox="0 0 1400 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Barry Clerjuste, AI Engineer</title>
+  <desc id="desc">Obsidian, crimson, and champagne portfolio banner for an AI engineer building local-first auditable agent systems.</desc>
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1130 50) rotate(141) scale(620 500)">
+      <stop stop-color="#35131C"/>
+      <stop offset="0.48" stop-color="#0D0D0F"/>
+      <stop offset="1" stop-color="#050505"/>
+    </radialGradient>
+    <linearGradient id="red" x1="225" y1="90" x2="435" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F04460"/>
+      <stop offset="0.55" stop-color="#C8273F"/>
+      <stop offset="1" stop-color="#731323"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F0DFC2"/>
+      <stop offset="0.52" stop-color="#C9AD7D"/>
+      <stop offset="1" stop-color="#756347"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" stroke="#FFFFFF" stroke-opacity="0.035"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="430" rx="28" fill="url(#bg)"/>
+  <rect width="1400" height="430" rx="28" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1398" height="428" rx="27" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <circle cx="1160" cy="200" r="152" stroke="#C9AD7D" stroke-opacity="0.18"/>
+  <ellipse cx="1160" cy="200" rx="238" ry="98" transform="rotate(-23 1160 200)" stroke="#C9AD7D" stroke-opacity="0.12"/>
+  <circle cx="1160" cy="200" r="74" fill="#C8273F" fill-opacity="0.12" filter="url(#glow)"/>
+  <circle cx="1160" cy="200" r="61" fill="#0A0A0C" stroke="#C8273F" stroke-opacity="0.62"/>
+  <text x="1160" y="193" fill="#F04460" text-anchor="middle" font-size="38" font-family="Georgia, serif">R</text>
+  <text x="1160" y="220" fill="#BEB6AA" text-anchor="middle" font-size="10" letter-spacing="2.4" font-family="ui-monospace, monospace">RAVEN CORE</text>
+  <g font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.5">
+    <rect x="947" y="70" width="122" height="42" rx="10" fill="#0B0B0D" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <text x="1008" y="94" fill="#D9D2C8" text-anchor="middle">HOME // AI</text>
+    <rect x="1245" y="98" width="108" height="42" rx="10" fill="#0B0B0D" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <text x="1299" y="122" fill="#D9D2C8" text-anchor="middle">HERMES</text>
+    <rect x="1235" y="292" width="124" height="42" rx="10" fill="#0B0B0D" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <text x="1297" y="316" fill="#D9D2C8" text-anchor="middle">CLINICAL</text>
+    <rect x="932" y="310" width="132" height="42" rx="10" fill="#0B0B0D" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <text x="998" y="334" fill="#D9D2C8" text-anchor="middle">BIOCOMPUTER</text>
+  </g>
+  <path d="M1037 112L1116 162M1247 135L1208 163M1238 291L1206 240M1054 310L1115 240" stroke="url(#gold)" stroke-opacity="0.4"/>
+  <rect x="90" y="76" width="82" height="82" rx="24" fill="#111114" stroke="#C9AD7D" stroke-opacity="0.42"/>
+  <text x="131" y="130" fill="url(#gold)" text-anchor="middle" font-size="28" letter-spacing="2" font-family="Georgia, serif">BC</text>
+  <text x="90" y="190" fill="#C8273F" font-size="13" letter-spacing="4" font-family="ui-monospace, monospace">AI ENGINEERING · AGENT SYSTEMS · APPLIED RESEARCH</text>
+  <text x="90" y="256" fill="#F4EFE7" font-size="58" font-weight="600" letter-spacing="-1.5" font-family="Georgia, serif">Barry Clerjuste</text>
+  <text x="92" y="304" fill="#C9AD7D" font-size="27" letter-spacing="1" font-family="Avenir Next, Segoe UI, Arial, sans-serif">Local-first intelligence with evidence, boundaries, and control.</text>
+  <line x1="92" y1="336" x2="690" y2="336" stroke="url(#red)" stroke-width="3"/>
+  <text x="92" y="374" fill="#8F8A83" font-size="16" letter-spacing="1.1" font-family="ui-monospace, monospace">OTTAWA, CANADA  //  OPEN SOURCE  //  AUDITABLE BY DESIGN</text>
+</svg>
