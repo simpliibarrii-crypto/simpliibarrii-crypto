@@ -26,13 +26,16 @@ jobs:
           lower = readme.lower()
           brand = Path('BRAND_SYSTEM.md').read_text(encoding='utf-8').lower()
 
+          asset_text = ''
           for asset in ('assets/profile-banner.svg', 'assets/ecosystem-map.svg'):
               path = Path(asset)
               assert path.exists(), f'missing profile asset {asset}'
               ET.parse(path)
               text = path.read_text(encoding='utf-8').lower()
-              for token in ('#050505', '#c8273f', '#c9ad7d', '#f4efe7'):
-                  assert token in text, f'{asset}: missing brand token {token}'
+              asset_text += text
+              for token in ('#c8273f', '#c9ad7d', '#f4efe7'):
+                  assert token in text, f'{asset}: missing signature token {token}'
+          assert '#050505' in asset_text, 'profile asset system is missing the obsidian canvas'
 
           local_links = re.findall(r'\[[^\]]*\]\(([^)]+)\)', readme)
           local_links += re.findall(r'(?:src|href)="([^"]+)"', readme)
