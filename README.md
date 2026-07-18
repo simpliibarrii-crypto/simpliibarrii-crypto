@@ -1,119 +1,132 @@
 <p align="center">
-  <img src="assets/raven-ai-banner.svg" alt="Raven AI ecosystem banner" width="100%" />
-</p>
-
-<h1 align="center">Barry Clerjuste</h1>
-
-<p align="center">
-  <strong>Sovereign AI Engineer • Building local-first agentic systems for biology & healthcare</strong>
+  <a href="https://simpliibarrii-crypto.github.io/">
+    <img src="assets/profile-banner.svg" alt="Barry Clerjuste, AI Engineer — local-first intelligence with evidence, boundaries, and control" width="100%" />
+  </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/simpliibarrii-crypto/raven-ai"><img alt="Raven AI" src="https://img.shields.io/badge/Flagship-Raven_AI-C8102E?style=for-the-badge&labelColor=05060A"></a>
-  <a href="https://github.com/simpliibarrii-crypto/openclinical-ai"><img alt="OpenClinical AI" src="https://img.shields.io/badge/Clinical-OpenClinical_AI-8B0000?style=for-the-badge&labelColor=05060A"></a>
-  <a href="https://github.com/simpliibarrii-crypto/home-for-ai"><img alt="Home for AI" src="https://img.shields.io/badge/Local--first-Home_for_AI-30363D?style=for-the-badge&labelColor=05060A"></a>
-  <a href="https://github.com/simpliibarrii-crypto/hermes-edge"><img alt="Hermes Edge" src="https://img.shields.io/badge/Edge-Hermes_Edge-4B0082?style=for-the-badge&labelColor=05060A"></a>
+  <a href="https://simpliibarrii-crypto.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/PORTFOLIO-LIVE_DEMOS-C8273F?style=for-the-badge&labelColor=050505"></a>
+  <a href="https://simpliibarrii-crypto.github.io/research.html"><img alt="Research archive" src="https://img.shields.io/badge/RESEARCH-PAPERS_C9_AD7D?style=for-the-badge&labelColor=050505&color=C9AD7D"></a>
+  <a href="https://www.linkedin.com/in/barry-clerjuste-4ab72b226"><img alt="LinkedIn" src="https://img.shields.io/badge/LINKEDIN-CONNECT-F4EFE7?style=for-the-badge&labelColor=050505&color=303036"></a>
+  <a href="https://huggingface.co/bclermo"><img alt="Hugging Face" src="https://img.shields.io/badge/HUGGING_FACE-MODELS_&_DEMOS-C9AD7D?style=for-the-badge&labelColor=050505"></a>
+</p>
+
+<h2 align="center">AI Engineer · Agent Systems · Applied Research</h2>
+
+<p align="center">
+  I build local-first AI systems for scientific workflows, healthcare prototypes, edge inference, and auditable agent orchestration.
+  My work emphasizes evidence, consent, reproducibility, benchmark discipline, and human control.
 </p>
 
 <p align="center">
-  <a href="https://barry-ai-public.simpliibarrii.chatgpt.site"><img src="https://img.shields.io/badge/Portfolio-Research_%26_Projects-7C5CFF?style=flat-square&logo=safari&logoColor=white" alt="AI research and projects portfolio"></a>
-  <a href="https://hf.co/bclermo"><img src="https://img.shields.io/badge/Hugging_Face-bclermo-FFD21E?style=flat-square&logo=huggingface" alt="Hugging Face profile"></a>
-  <a href="https://github.com/simpliibarrii-crypto"><img src="https://img.shields.io/badge/GitHub-simpliibarrii--crypto-181717?style=flat-square&logo=github" alt="GitHub profile"></a>
-  <a href="https://www.linkedin.com/in/barry-clerjuste-4ab72b226"><img src="https://img.shields.io/badge/LinkedIn-Barry_Clerjuste-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn profile"></a>
-  <a href="mailto:simpliibarrii@outlook.com"><img src="https://img.shields.io/badge/Email-simpliibarrii%40outlook.com-blue?style=flat-square" alt="Email"></a>
+  <strong>Ottawa, Canada</strong> · Open to AI engineering roles, research collaborations, and ambitious product teams
 </p>
 
 ---
 
-## 🦅 Raven AI Ecosystem
+## Selected systems
 
-Local-first, sovereign agentic platforms for practical biology, healthcare, and reproducible science. **Cheap. Fast. Auditable. Under your control.**
-
-### Ecosystem Overview
-
-```mermaid
-flowchart TD
-    subgraph "Raven AI Core"
-        Core[Raven AI]:::core
-    end
-    subgraph "Deployment Surfaces"
-        Edge[Hermes Edge - On-device/GPU-first]:::edge
-        Desktop[Home for AI - Local Orchestration]:::desktop
-        Clinical[OpenClinical AI - Clinical Layer]:::clinical
-    end
-    Core --> Edge
-    Core --> Desktop
-    Core --> Clinical
-    style Core fill:#E3F2FD,stroke:#1976D2
-    style Edge fill:#F3E5F5,stroke:#7B1FA2
-    style Desktop fill:#FFF3E0,stroke:#F57C00
-    style Clinical fill:#E8F5E9,stroke:#388E3C
-```
-
-**Current Highlights** (updated July 2026):
-- Enhanced Raven AI with visual architecture diagrams, Token Economy, Evidence Graphs
-- Edge routing with LiteRT-LM & Gemma models on mobile/edge devices
-- Clinical MVP with consent, audit, signed models for real workflows
-
-## What I'm Building
-
-Practical AI that supports researchers, clinicians, and builders without cloud dependency or black-box risks.
-
-| Project | Focus | Status |
-|---------|-------|--------|
-| **[Raven AI](https://github.com/simpliibarrii-crypto/raven-ai)** | Flagship agent platform with Evidence Graphs & Token Economy | Active - Major README upgrade with diagrams |
-| **[Hermes Edge](https://github.com/simpliibarrii-crypto/hermes-edge)** | GPU-first on-device agents (phones, laptops) | Active |
-| **[Home for AI](https://github.com/simpliibarrii-crypto/home-for-ai)** | Local Tauri desktop orchestration | Active |
-| **[OpenClinical AI](https://github.com/simpliibarrii-crypto/openclinical-ai)** | PHI-aware clinical runtime | Active MVP |
-
-## Core Principles
-
-- **Sovereign & Local-First**: Run close to data, inspectable models, no mandatory cloud
-- **Evidence-Driven**: Verifiable provenance with Evidence Graphs for every claim
-- **Efficient**: Token Economy for cheap, measurable agent workflows
-- **Clinical-Ready**: Consent, audit, signed manifests for healthcare workflows
-- **Reproducible Science**: Benchmark gates & scientific run manifests
-
-## Tech Stack
+| System | What it demonstrates | Maturity | Live case study |
+|---|---|---:|---|
+| **[Home for AI](https://github.com/simpliibarrii-crypto/home-for-ai)** | React + Tauri command workspace for coordinating agents, local models, knowledge, and evidence traces | Active flagship redesign | **[Launch demo ↗](https://simpliibarrii-crypto.github.io/project.html?project=home-for-ai)** |
+| **[Raven AI](https://github.com/simpliibarrii-crypto/raven-ai)** | Evidence Graphs, token-efficient agent policy, scientific run gates, and reproducible research workflows | Active research platform | **[Build an evidence trace ↗](https://simpliibarrii-crypto.github.io/project.html?project=raven-ai)** |
+| **[Hermes Edge](https://github.com/simpliibarrii-crypto/hermes-edge)** | Device-aware routing across deterministic tools, local models, GPU delegates, and benchmark-gated fallbacks | Active v0.3 | **[Test the routing policy ↗](https://simpliibarrii-crypto.github.io/project.html?project=hermes-edge)** |
+| **[OpenClinical AI](https://github.com/simpliibarrii-crypto/openclinical-ai)** | Consent-aware requests, tenant boundaries, signed model manifests, structured handoffs, and audit events | Development-preview MVP | **[Run the handoff demo ↗](https://simpliibarrii-crypto.github.io/project.html?project=openclinical-ai)** |
+| **[Raven BioComputer](https://github.com/simpliibarrii-crypto/simpliibarrii-crypto-raven-biocomputer)** | Bounded biology tools, isolated run workspaces, hashed artifacts, and reproducible receipts | Alpha research software | **[Analyze a sequence ↗](https://simpliibarrii-crypto.github.io/project.html?project=raven-biocomputer)** |
+| **JSpace Chain** | Observable, capacity-bounded agent control plane for routing, risk gates, reflection, and tamper-evident audit | Private research prototype | **[Inspect the policy demo ↗](https://simpliibarrii-crypto.github.io/project.html?project=jspace-chain)** |
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,typescript,react,rust,pytorch,tensorflow,tauri,docker,linux,git,githubactions,sqlite&perline=8" alt="Technology stack" />
+  <img src="assets/ecosystem-map.svg" alt="Raven AI ecosystem map connecting Home for AI, Hermes Edge, OpenClinical AI, Raven BioComputer, and JSpace Chain" width="100%" />
 </p>
 
-**Primary**: Python, FastAPI, TypeScript/React, Rust/Tauri  
-**AI**: PyTorch, LiteRT-LM, Gemma models, agent routing  
-**Infra**: Local-first, Docker, audit logs, CI/CD  
+## Engineering approach
 
-## GitHub Activity
+<table>
+<tr>
+<td width="25%" valign="top">
+<strong>Evidence before confidence</strong><br><br>
+Claims carry sources, confidence, risk, verification steps, and inspectable traces.
+</td>
+<td width="25%" valign="top">
+<strong>Local before remote</strong><br><br>
+Deterministic tools and on-device models handle suitable work before cloud escalation.
+</td>
+<td width="25%" valign="top">
+<strong>Boundaries before autonomy</strong><br><br>
+Consent, tenant isolation, policy gates, and human approval define agent authority.
+</td>
+<td width="25%" valign="top">
+<strong>Benchmarks before claims</strong><br><br>
+Performance language is tied to device, backend, memory, thermal state, and reproducible metrics.
+</td>
+</tr>
+</table>
+
+## Technical range
+
+**Languages and application layers**
+
+![Python](https://img.shields.io/badge/Python-111114?style=flat-square&logo=python&logoColor=C9AD7D)
+![TypeScript](https://img.shields.io/badge/TypeScript-111114?style=flat-square&logo=typescript&logoColor=F4EFE7)
+![Rust](https://img.shields.io/badge/Rust-111114?style=flat-square&logo=rust&logoColor=C8273F)
+![React](https://img.shields.io/badge/React-111114?style=flat-square&logo=react&logoColor=F4EFE7)
+![FastAPI](https://img.shields.io/badge/FastAPI-111114?style=flat-square&logo=fastapi&logoColor=78D7A0)
+![Tauri](https://img.shields.io/badge/Tauri-111114?style=flat-square&logo=tauri&logoColor=C9AD7D)
+
+**AI systems and infrastructure**
+
+![Agent Systems](https://img.shields.io/badge/Agent_Systems-C8273F?style=flat-square&labelColor=111114)
+![Evidence Graphs](https://img.shields.io/badge/Evidence_Graphs-C9AD7D?style=flat-square&labelColor=111114)
+![Local AI](https://img.shields.io/badge/Local_AI-78D7A0?style=flat-square&labelColor=111114)
+![LiteRT](https://img.shields.io/badge/LiteRT--LM-F4EFE7?style=flat-square&labelColor=111114)
+![Docker](https://img.shields.io/badge/Docker-111114?style=flat-square&logo=docker&logoColor=7BA7FF)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-111114?style=flat-square&logo=githubactions&logoColor=F4EFE7)
+![SQLite](https://img.shields.io/badge/SQLite-111114?style=flat-square&logo=sqlite&logoColor=C9AD7D)
+
+## Research and papers
+
+I study current AI-systems research, separate demonstrated findings from engineering inference, and turn useful properties into testable contracts, prototypes, and browser demonstrations.
+
+| Research direction | Current form |
+|---|---|
+| **Observable Global Workspaces for Auditable Agent Systems** | Working paper and private JSpace Chain prototype |
+| **Evidence Graphs and Token-Efficient Scientific Agents** | Manuscript in preparation through Raven AI |
+| **Benchmark-Gated Routing for On-Device Agent Inference** | Hermes Edge engineering report and benchmark contract |
+| **Bounded Computers for Reproducible Biology Agents** | Raven BioComputer technical paper draft |
+| **Consent-Gated Clinical AI Runtimes** | OpenClinical AI applied case study |
+| **Retrieval Routing and Accelerated Agent Execution** | LangChain NVIDIA integration study, clearly attributed to upstream work |
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=simpliibarrii-crypto&show_icons=true&hide_border=true&theme=transparent&title_color=C8102E&icon_color=C8102E&text_color=8B949E" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=simpliibarrii-crypto&layout=compact&hide_border=true&theme=transparent&title_color=C8102E&text_color=8B949E" alt="Top languages" />
+  <a href="https://simpliibarrii-crypto.github.io/research.html"><strong>Open the complete research archive →</strong></a>
 </p>
 
-## Current Focus & Paper
+## What I bring to a team
 
-Hardening the full Raven stack for production-like local use cases in long-term care and biology research. Preparing paper on **local routing policy, Token Economy, and Evidence Graphs** for agentic scientific AI.
+- Product-focused AI engineering across Python services, TypeScript interfaces, Rust/Tauri desktop applications, and containerized workflows.
+- Practical healthcare context paired with deliberate caution around consent, privacy, clinical claims, and human review.
+- Research-to-product translation that preserves source attribution and marks assumptions instead of polishing them into false certainty.
+- A systems mindset centered on reproducibility, observability, deployment constraints, and useful operator experience.
 
-**Recent**: Major visual & documentation upgrades across repos for better discoverability and professionalism.
+## Current focus
 
-## Portfolio & Research
-
-Explore the full public project index, research direction, and upcoming paper archive at **[barry-ai-public.simpliibarrii.chatgpt.site](https://barry-ai-public.simpliibarrii.chatgpt.site)**.
-
-## Get Involved
-
-- Visit the public portfolio and research archive
-- Star the projects if you value sovereign AI infrastructure ⭐
-- Open issues/PRs with real use cases
-- Follow progress on X (@Barclermo)
+- Turning **Home for AI** into the visual command surface for the full ecosystem.
+- Hardening Raven's Evidence Graph, Token Economy, and scientific publishability contracts.
+- Testing edge-routing policies across realistic memory and hardware constraints.
+- Expanding the public portfolio with honest, credential-free demonstrations employers can inspect immediately.
 
 ---
 
 <p align="center">
-  <sub>Building the future of auditable, local-first AI for healthcare & biology. Open to collaborations on sovereign agent systems.</sub>
+  <strong>Build intelligence with a spine.</strong><br>
+  <sub>AI engineering · agent systems · local inference · scientific and healthcare prototypes</sub>
 </p>
 
 <p align="center">
-  <em>Made with ❤️ for practical builders — extreme improvements powered by Grok connections.</em>
+  <a href="mailto:simpliibarrii@outlook.com">Email</a>
+  &nbsp;·&nbsp;
+  <a href="https://simpliibarrii-crypto.github.io/">Portfolio</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/barry-clerjuste-4ab72b226">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="https://huggingface.co/bclermo">Hugging Face</a>
 </p>
