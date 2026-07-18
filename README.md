@@ -5,10 +5,10 @@
 </p>
 
 <p align="center">
-  <a href="https://simpliibarrii-crypto.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/PORTFOLIO-LIVE_DEMOS-C8273F?style=for-the-badge&labelColor=050505"></a>
-  <a href="https://simpliibarrii-crypto.github.io/research.html"><img alt="Research archive" src="https://img.shields.io/badge/RESEARCH-PAPERS_C9_AD7D?style=for-the-badge&labelColor=050505&color=C9AD7D"></a>
-  <a href="https://www.linkedin.com/in/barry-clerjuste-4ab72b226"><img alt="LinkedIn" src="https://img.shields.io/badge/LINKEDIN-CONNECT-F4EFE7?style=for-the-badge&labelColor=050505&color=303036"></a>
-  <a href="https://huggingface.co/bclermo"><img alt="Hugging Face" src="https://img.shields.io/badge/HUGGING_FACE-MODELS_&_DEMOS-C9AD7D?style=for-the-badge&labelColor=050505"></a>
+  <a href="https://simpliibarrii-crypto.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/PORTFOLIO-LIVE_DEMOS-C8273F?style=for-the-badge&amp;labelColor=050505"></a>
+  <a href="https://simpliibarrii-crypto.github.io/research.html"><img alt="Research archive" src="https://img.shields.io/badge/RESEARCH-PAPERS-C9AD7D?style=for-the-badge&amp;labelColor=050505"></a>
+  <a href="https://www.linkedin.com/in/barry-clerjuste-4ab72b226"><img alt="LinkedIn" src="https://img.shields.io/badge/LINKEDIN-CONNECT-303036?style=for-the-badge&amp;labelColor=050505"></a>
+  <a href="https://huggingface.co/bclermo"><img alt="Hugging Face" src="https://img.shields.io/badge/HUGGING_FACE-MODELS_%26_DEMOS-C9AD7D?style=for-the-badge&amp;labelColor=050505"></a>
 </p>
 
 <h2 align="center">AI Engineer · Agent Systems · Applied Research</h2>
