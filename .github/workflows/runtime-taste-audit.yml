@@ -1,0 +1,83 @@
+name: Runtime and Taste Audit
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  profile-presentation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate profile assets, links, and brand contract
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from urllib.parse import urlparse
+          import re
+          import xml.etree.ElementTree as ET
+
+          readme = Path('README.md').read_text(encoding='utf-8')
+          lower = readme.lower()
+          brand = Path('BRAND_SYSTEM.md').read_text(encoding='utf-8').lower()
+
+          for asset in ('assets/profile-banner.svg', 'assets/ecosystem-map.svg'):
+              path = Path(asset)
+              assert path.exists(), f'missing profile asset {asset}'
+              ET.parse(path)
+              text = path.read_text(encoding='utf-8').lower()
+              for token in ('#050505', '#c8273f', '#c9ad7d', '#f4efe7'):
+                  assert token in text, f'{asset}: missing brand token {token}'
+
+          local_links = re.findall(r'\[[^\]]*\]\(([^)]+)\)', readme)
+          local_links += re.findall(r'(?:src|href)="([^"]+)"', readme)
+          for link in local_links:
+              if link.startswith(('http://', 'https://', 'mailto:', '#')):
+                  continue
+              path = urlparse(link).path
+              assert Path(path).exists(), f'broken local profile link: {link}'
+
+          canonical = [
+              'active product',
+              'active research platform',
+              'development-preview mvp',
+              'alpha research software',
+              'private research prototype',
+              'attributed integration study',
+          ]
+          for label in canonical:
+              assert label in lower or label in brand, f'missing maturity label {label}'
+          assert 'brand_system.md' in lower
+          assert 'https://simpliibarrii-crypto.github.io/' in lower
+          assert 'barry-ai-public.simpliibarrii.chatgpt.site' not in lower + brand
+          assert 'build intelligence with a spine' in lower + brand
+          assert 'langchain-nvidia' in lower and 'attributed' in lower
+          print('Profile presentation contract passed.')
+          PY
+
+  brand-standard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate the source-of-truth brand document
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          text = Path('BRAND_SYSTEM.md').read_text(encoding='utf-8').lower()
+          required = [
+              'canonical palette', 'typography', 'visual grammar', 'product hierarchy',
+              'maturity language', 'attribution boundary', 'accessibility',
+              '#050505', '#c8273f', '#c9ad7d', '#f4efe7',
+          ]
+          for item in required:
+              assert item in text, f'brand standard missing {item}'
+          for forbidden in ('generic saas dashboard', 'purple, cyan, rainbow gradients'):
+              assert forbidden in text, f'brand anti-pattern guidance missing {forbidden}'
+          print('Brand source of truth passed.')
+          PY
